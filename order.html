@@ -2,6 +2,11 @@
 <html>
   <head><title><h1>"Order a Melongram"</h1></title> 
   </head>
+  <h1>Order a Melongram</h1>
+
+  <br>
+  <img src="https://content.api.news/v3/images/bin/6a249e61eee2a3f9f33a1726ac449c9f" alt="watermelon lion carving" width ="500" height ="250">
+
   <body>
         <p id = "intro">There's no better way to show a loved one you care than with a Melongram.</p>
 
@@ -29,14 +34,26 @@
 <option value = "honeydew">Honeydew</option>
 </select>
 <br>
-When should we deliver?
+<br>
+<fieldset>
+<legend>When should we deliver?</legend>
 
-<input type = "radio" name= time value = am id = "morning"> 
-<label for="morning">Morning</label>
-<input type = "radio" name= time value = pm id = "evening"> 
-<label for="morning">Evening</label>
-<input type = "radio" name= time value = any id = "any time"> 
-<label for="morning">Any time</label>
+
+<div>
+    <input type = "radio" name= time value = am id = "morning"> 
+    <label for="morning">Morning</label>
+</div>
+<div>
+    <input type = "radio" name= time value = pm id = "evening"> 
+    <label for="morning">Evening</label>
+</div>
+<div>
+    <input type = "radio" name= time value = any id = "any time"> 
+    <label for="morning">Any time</label>
+</div>
+
+</fieldset>
+<br>
 <br>
 Enter your message:
 <textarea>
@@ -48,13 +65,3 @@ Subscribe to our newsletter:
 </body>
 </html>
 
-<!----
-<label for="input-email">
-    Email
-  </label>
-  <input
-    type="text"
-    name="email"
-    id="input-email"
-  >
---->
